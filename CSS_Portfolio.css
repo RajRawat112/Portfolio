@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+
+li, a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+.PORTFOLIO {
+    cursor: pointer;
+    color: #edf0f1;
+    font-size: 24px;
+}
+
+.nav-links, .list_link {
+    list-style-type: none;
+}
+ .list_link li{
+     display: inline-block;
+     padding: 0px 20px;
+ }
+
+ .nav-links li a{
+     transition: all 0.3s ease 0s;
+ }
+
+.nav-links li a:hover{
+    color: #0088a9;
+}
+
+.myself{
+    display: inline-block;
+    width: 50%;
+    color: #edf0f1;
+    margin-left: 5%;
+    margin-top: 100px;
+    border-radius: 25%;
+    margin-bottom: 60px;
+}
+
+.heading{
+    display: inline-block;
+    font-family: 'Cousrier New', Courier, monospace;
+    color: #edf0f1;
+    width: auto;
+    font-size: 40px;
+    margin-left: 5%;
+    margin-bottom: 60px;
+}
+
+.head_2{
+    font-family: 'Cousrier New', Courier, monospace;
+    color: #edf0f1;
+    font-size: 30px;
+    margin-left: 5%;
+
+}
+
+.myself_img{
+    display: inline-block;
+    width: 15%;
+    color: #edf0f1;
+    margin-left: 15%;
+    margin-top: 100px;
+    border-radius: 25%;
+}
+.about{
+    font-family: 'Cousrier New', Courier, monospace;
+    color: #b5a866;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 90%;
+}
+.about p{
+    color: #edf0f1;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 55%;
+}
+.gif{
+    width: 30%;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.social a {
+    display: block;
+    margin-top: 85%;
+    margin-left: 10%;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #edf0f1;
+    
+}
+.block{
+    display: inline-block;
+    width: auto;
+    margin-left: 20%;
+    margin-bottom: 25px;
+}
+.social{
+    margin-top: 5%;
+    margin-left: 10%;
+    display: inline-block;
+}
+.social a:hover{
+    color: #0088a9;
+}
+
+.resume :hover{
+    border: 3px solid #0088a9;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
